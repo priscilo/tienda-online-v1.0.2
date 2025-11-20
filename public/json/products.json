@@ -7,7 +7,7 @@
       "XXL"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "14/15 s/nº",
     "id": 0,
     "installments": 9,
@@ -24,7 +24,7 @@
       "L"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "14/15 s/nº",
     "id": 1,
     "installments": 3,
@@ -39,7 +39,7 @@
       "XL"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "14/15 s/nº - Jogador",
     "id": 2,
     "installments": 12,
@@ -55,7 +55,7 @@
       "ML"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "",
     "id": 3,
     "installments": 5,
@@ -71,7 +71,7 @@
       "XS"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "4 MSL",
     "id": 4,
     "installments": 9,
@@ -87,8 +87,8 @@
       "L",
       "XL"
     ],
-    "currencyFormat": "$S/",
-    "currencyId": "USD",
+    "currencyFormat": "S/",
+    "currencyId": "PEN",
     "description": "GPX Poly 1",
     "id": 5,
     "installments": 3,
@@ -106,7 +106,7 @@
       "XXL"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "Treino 2014",
     "id": 6,
     "installments": 5,
@@ -124,7 +124,7 @@
       "XXL"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "14/15 s/nº",
     "id": 7,
     "installments": 9,
@@ -140,7 +140,7 @@
       "L"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "14/15 s/nº",
     "id": 8,
     "installments": 7,
@@ -156,7 +156,7 @@
       "L"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "2014 s/nº",
     "id": 9,
     "installments": 7,
@@ -173,7 +173,7 @@
       "XL"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "14/15 + Camiseta 1º Mundial",
     "id": 10,
     "installments": 9,
@@ -189,7 +189,7 @@
       "XXL"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "T-shirt 13/14",
     "id": 11,
     "installments": 0,
@@ -204,7 +204,7 @@
       "S"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "1977 Infantil",
     "id": 12,
     "installments": 4,
@@ -219,7 +219,7 @@
       "XL"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "",
     "id": 13,
     "installments": 4,
@@ -235,7 +235,7 @@
       "XL"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "",
     "id": 14,
     "installments": 5,
@@ -251,7 +251,7 @@
       "XL"
     ],
     "currencyFormat": "S/",
-    "currencyId": "USD",
+    "currencyId": "PEN",
     "description": "",
     "id": 15,
     "installments": 9,
