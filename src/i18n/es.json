@@ -1,0 +1,10 @@
+{
+    "product": {
+        "sizeLabel": "Tamaños disponibles",
+        "addToCart": "Agregar al carrito",
+        "freeShipping": "Envío gratis",
+        "priceLabel": "Precio",
+        "installmentsLabel": "Cuotas",
+        "installmentsUnit": "meses"
+    }
+}
