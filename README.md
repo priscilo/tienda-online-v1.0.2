@@ -1,3 +1,5 @@
+
+
 ```markdown
 # 🛒 Tienda Online v1.0.2
 
@@ -7,9 +9,9 @@ Sistema modular de e-commerce desarrollado con enfoque en accesibilidad, defensi
 
 ## 📦 Características principales
 
-- 🔧 Arquitectura modular con componentes reutilizables (`Navbar`, `Hero`, `Footer`, `MueblesCard`)
+- 🔧 Arquitectura modular con componentes reutilizables (`Navbar`, `Hero`, `Footer`, `ProductCard`)
 - 🎨 Diseño responsivo con Tailwind CSS y accesibilidad mejorada
-- 🧪 Pruebas unitarias defensivas con Vitest (`useCart`, `useAuth`)
+- 🧪 Pruebas unitarias defensivas con Vitest (`cartStore`, `useCart`, `useAuth`)
 - 📚 Documentación visual y props estructurados para onboarding técnico
 - 🌐 Preparado para internacionalización y branding multicultural
 
@@ -20,15 +22,15 @@ Sistema modular de e-commerce desarrollado con enfoque en accesibilidad, defensi
 ```
 src/
 ├── assets/              # Imágenes y recursos visuales
-├── components/          # Componentes Vue modulares
-│   ├── Navbar.vue
-│   ├── Hero.vue
-│   ├── Footer.vue
-│   └── MueblesCard.vue
+├── components/          # Componentes React modulares
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Footer.jsx
+│   └── ProductCard.jsx
+├── store/               # Zustand stores (cartStore.js, balanceStore.js)
 ├── composables/         # Hooks personalizados (useCart, useAuth)
-├── layouts/             # Layouts visuales escalables
-├── views/               # Vistas principales
-└── App.vue
+├── views/               # Vistas principales (Home, Cart, Checkout)
+└── App.jsx
 ```
 
 ---
@@ -41,8 +43,10 @@ npm run test
 ```
 
 Cobertura defensiva para:
-- `useCart.ts`: manejo de carrito, cantidades, persistencia
-- `useAuth.ts`: autenticación simulada y validación
+
+- `cartStore.js`: manejo de carrito, cantidades, eliminación y limpieza
+- `useCart.js`: integración con componentes y persistencia
+- `useAuth.js`: autenticación simulada y validación
 
 ---
 
@@ -61,7 +65,7 @@ npm run dev
 
 | Componente    | Propiedad  | Tipo   | Descripción                          |
 | ------------- | ---------- | ------ | ------------------------------------ |
-| `MueblesCard` | `producto` | Object | Objeto con `nombre`, `precio`, `img` |
+| `ProductCard` | `producto` | Object | Objeto con `nombre`, `precio`, `img` |
 | `Navbar`      | `logo`     | String | Ruta del logo                        |
 | `Hero`        | `titulo`   | String | Título principal                     |
 | `Footer`      | `redes`    | Array  | Íconos y enlaces sociales            |
@@ -78,16 +82,17 @@ npm run dev
 ## 🧭 Roadmap
 
 - [x] Modularización de layout
-- [x] Pruebas unitarias defensivas
-- [x] Documentación visual de props
-- [ ] Integración de carrito persistente con localStorage
+- [x] Pruebas unitarias defensivas con Vitest
+- [x] Documentación visual de props y stores
+- [ ] Persistencia de carrito con localStorage
 - [ ] Exportación de README como PDF visual
+- [ ] Integración de autenticación real con backend
 
 ---
 
 ## 🤝 Contribuciones
 
-Pull requests bienvenidos. Para cambios mayores, abre un issue primero para discutir lo que te gustaría cambiar.
+Pull requests bienvenidos. Para cambios mayores, abre un issue primero para discutir lo que te gustaría mejorar o refactorizar.
 
 ---
 
@@ -95,7 +100,7 @@ Pull requests bienvenidos. Para cambios mayores, abre un issue primero para disc
 
 **Priscilo Pomachagua Durán**  
 Arquitecto técnico y líder de INVERSIONES MÚLTIPLES PUMA S.R.L.  
-Especialista en automatización, defensividad y branding visual.
+Especialista en automatización industrial, defensividad web y branding visual multicultural.
 
 ---
 
